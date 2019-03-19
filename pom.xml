@@ -70,7 +70,7 @@
                    </goals>
                     <configuration>
                 <file>C:\Users\Jayant\.jenkins\workspace\TestJob1\target\CalculatorApp-0.0.1-SNAPSHOT.jar</file>
-                <url></url>
+                <url>http://localhost:8081/artifactory</url>
                 <groupId>com.Calculator</groupId>
                 <artifactId>CalculatorApp</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
