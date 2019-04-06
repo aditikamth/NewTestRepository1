@@ -106,18 +106,6 @@
         <name>Jayant-PC-releases</name>
         <url>http://localhost:8081/artifactory/Release</url>
     </repository>
-	 <snapshotRepository>
-        <id>snapshots</id>
-        <name>Jayant-PC-snapshots</name>
-        <url>http://localhost:8081/artifactory/Release</url>
-	 </snapshotRepository> 
- </distributionManagement>
- <distributionManagement>
-	<repository>
-        <id>central</id>
-        <name>Jayant-PC-releases</name>
-        <url>http://localhost:8081/artifactory/Snapshot</url>
-    </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>Jayant-PC-snapshots</name>
