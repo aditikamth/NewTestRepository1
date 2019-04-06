@@ -21,6 +21,24 @@
     <version>4.12</version>
     <scope>test</scope>
 </dependency>
+	 
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-plugin-api</artifactId>
+    <version>3.6.0</version>
+</dependency>
+	  
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <version>3.1.1</version>
+</dependency>
+	  
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-artifact</artifactId>
+    <version>3.6.0</version>
+</dependency>
   </dependencies>
   
   <build>
@@ -87,6 +105,16 @@
         <id>central</id>
         <name>Jayant-PC-releases</name>
         <url>http://localhost:8081/artifactory/Release</url>
+    </repository>
+	 <snapshotRepository>
+        <id>snapshots</id>
+        <name>Jayant-PC-snapshots</name>
+        <url>http://localhost:8081/artifactory/Release</url>
+    </snapshotRepository>
+	<repository>
+        <id>central</id>
+        <name>Jayant-PC-releases</name>
+        <url>http://localhost:8081/artifactory/Snapshot</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
