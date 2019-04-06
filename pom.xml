@@ -56,7 +56,7 @@
 			    	</executions>
       </plugin>
       
- <!--     <plugin>
+     <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
@@ -69,8 +69,8 @@
                     <goal>deploy-file</goal>
                    </goals>
                     <configuration>
-                <file>C:\Users\Jayant\.jenkins\workspace\TestJob1\target\CalculatorApp-0.0.1-SNAPSHOT.jar</file>
-                <url></url>
+                <file>C:\Program Files (x86)\Jenkins\workspace\TestJob123\target\CalculatorApp-0.0.1-SNAPSHOT.jar</file>
+                <url>http://localhost:8081/artifactory</url>
                 <groupId>com.Calculator</groupId>
                 <artifactId>CalculatorApp</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
@@ -78,7 +78,7 @@
                   </configuration>
                </execution>
           </executions>
-     </plugin>  -->
+     </plugin>  
     </plugins>
   </build>
   
